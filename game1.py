@@ -22,7 +22,7 @@ elif sum_numbers > 1:
     for i in range(2, sum_numbers):
         if (num % i) == 0:
             prime = True
-    if prime:
+    if prime:=True:
         print(f"Alas! {sum_numbers}, is not a prime number")
     else:
-        print(f"Wow {sum_numbers}, is a prime number")
+        print(f"Wow! {sum_numbers}, is a prime number")
